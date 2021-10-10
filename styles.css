@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -97,9 +97,10 @@ p {
   text-transform: capitalize;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
   h1 {
-    font-size: 50px;
+    font-size: 48px;
+    line-height: 1.5;
   }
   h2 {
     font-family: 30px;
@@ -111,13 +112,13 @@ p {
     text-align: center;
   }
 
-  h1,
-  h2,
-  h3 {
-    text-align: center;
+  .text-start {
+    text-align: center !important;
   }
+
   .app-links {
-    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 }
 
